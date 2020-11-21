@@ -1,0 +1,34 @@
+.TitleHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  &__icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: $size-m;
+    img {
+      display: block;
+      max-width: 100%;
+      width: 70px;
+      height: 60px;
+    }
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+
+    &__heading {
+      text-align: initial;
+      font-weight: $font-bold;
+      font-size: $font-l;
+      line-height: 2.8rem;
+      color: $text;
+    }
+    &__text {
+      color: $grey-text;
+      line-height: 2.4rem;
+    }
+  }
+}

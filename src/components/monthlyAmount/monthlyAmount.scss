@@ -1,0 +1,43 @@
+.montlyAmount {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid $border-color;
+  margin-top: 4rem;
+  box-sizing: border-box;
+  border-radius: $radius-s;
+  &__amount {
+    display: flex;
+    background: $white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 3.2rem;
+    border-radius: $radius-s;
+    height: 9rem;
+    @include respond(dt) {
+      height: 5.6rem;
+    }
+
+    &-text {
+      line-height: 2.4rem;
+      font-size: $font-d;
+      color: $text;
+      text-transform: capitalize;
+      letter-spacing: 0.1rem;
+    }
+    &-value {
+      font-weight: $font-bold;
+      font-size: $font-l;
+      color: $color-primary;
+    }
+  }
+  &__plan {
+    display: flex;
+    justify-content: center;
+    background: $grey-blue;
+    padding: 2.4rem 3.2rem;
+    font-size: $font-xs;
+    flex: 1;
+    height: 9rem;
+  }
+}

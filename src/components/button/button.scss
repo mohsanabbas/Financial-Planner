@@ -1,0 +1,29 @@
+.Button {
+  border: none;
+  background-color: $color-darkblue;
+  font-weight: $font-bold;
+  color: $white;
+  font-size: $font-s + 0.2;
+  height: 6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.4s;
+  width: 100%;
+  border-radius: $radius-circle;
+  @include respond(dt) {
+    height: 5.6rem;
+    width: 80%;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: $primary-darker;
+  }
+  &:disabled {
+    background-color: $grey-one;
+    border: none;
+    color: $grey;
+  }
+}

@@ -1,0 +1,16 @@
+.monthlabel {
+  display: flex;
+  flex-direction: column;
+  &__month {
+    font-size: $font-l;
+    font-weight: $font-bold;
+    color: $color-text;
+    margin-bottom: $size-s;
+    @include respond(dt) {
+      font-size: $font-s;
+    }
+  }
+  &__year {
+    color: $grey-text;
+  }
+}

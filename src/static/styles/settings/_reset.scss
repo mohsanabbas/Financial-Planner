@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  @include respond(dt) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  color: $color-text;
+  font-family: 'SF Pro Display', Helvetica Neue, Arial, sans-serif;
+  font-size: $font-s;
+  font-weight: $font-regular;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  width: inherit;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}

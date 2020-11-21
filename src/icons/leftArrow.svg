@@ -1,0 +1,15 @@
+<svg id="Icon_Arrow_Left" data-name="Icon Arrow Left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #4c4c4c;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_535" data-name="Rectangle 535" class="cls-1" width="42" height="42"/>
+  <path id="Path_2181" data-name="Path 2181" class="cls-2" d="M15.41,7.41,14,6,8,12l6,6,1.41-1.41L10.83,12Z" transform="translate(9 9)"/>
+</svg>

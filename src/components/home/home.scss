@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  flex-direction: column;
+  @include respond(dt) {
+    height: 110%;
+  }
+  &__nav {
+    display: flex;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__heading {
+      display: flex;
+      text-align: justify;
+      color: $color-primary;
+      font-size: $font-m;
+      &-text {
+        padding-left: $size-s/2;
+      }
+    }
+  }
+  &__card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

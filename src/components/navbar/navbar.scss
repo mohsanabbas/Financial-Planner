@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5.6rem;
+  background: $white;
+  padding: 1.6rem;
+  width: 100vw;
+  &__logo {
+    display: flex;
+    justify-content: flex-start;
+    color: $black;
+    width: 7.5rem;
+    height: 2.4rem;
+    @include respond(dt) {
+      width: 10rem;
+      height: 3.2rem;
+    }
+  }
+}

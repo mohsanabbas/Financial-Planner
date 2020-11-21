@@ -1,0 +1,23 @@
+$MQs: true;
+
+@mixin respond($point) {
+  @if ($MQs) {
+    $mobile: 'screen and (min-width: 320px) and (max-width: 480px)';
+    $tablet: 'screen and (min-width: 480px) and (max-width: 1070px)';
+    $deskt: 'screen and (min-width: 1070px) and (max-width: 1600px) ';
+
+    @if $point == ph {
+      @media #{$mobile} {
+        @content;
+      }
+    } @else if $point == tab {
+      @media #{$tablet} {
+        @content;
+      }
+    } @else if $point == dt {
+      @media #{$deskt} {
+        @content;
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+$color-darkblue: #1b31a8;
+$color-primary: #0079ff;
+
+$primary-darker: darken($color-primary, 10%);
+$primary-lighter: #efe4ff;
+$color-secondary: #22cbd3;
+$secondary-darker: darken($color-secondary, 10%);
+$secondary-lighter: #efe4ff;
+$border-color: #e9eef2;
+$green-darker: #55d86b;
+$green-lighter: #4ac326;
+$status-pending: #f9a435;
+
+$white: #ffffff;
+$black: #000000;
+$grey-one: #f5f5f5;
+$grey-two: #ebebeb;
+$grey-three: #e0e0e0;
+$grey-four: #e2e2e2;
+$grey: #dedede;
+$grey-five: #dedede;
+$grey-six: #c4c4c4;
+$grey-seven: #cbd5dc;
+$grey-eight: #acacac;
+$grey-nine: #9f9f9f;
+$grey-ten: #898989;
+$grey-eleven: #4b4b4b;
+$grey-twelve: #2d2d2d;
+$grey-shadow: #bfbfbf;
+$grey-blue: #f4f8fa;
+$grey-text: #708797;
+
+$pink: #eb0679;
+$pink-lighter: #ef6b7b;
+
+$red: #eb384d;
+$red-lighter: #ff4949;
+
+$yellow-light: #ffffb5;
+$yellow: #f8c947;
+$yellow-dark: #cdcd85;
+
+$orange: #f9a435;
+
+$color-text: #1e2a32;
+$color-title: #4b4b4b;
+
+//  viewports;
+$mobile: 0px;
+$desktop: 1096px;
+
+//  grid;
+$gutter: 20%;
+
+// /* Font Size;
+$font-xs: 1.2rem;
+$font-s: 1.4rem;
+$font-d: 1.8rem;
+$font-m: 2.1rem;
+$font-l: 2.4rem;
+$font-xl: 2.7rem;
+$font-xxl: 4rem;
+
+$micro-paragraph-font-size: (
+  null: $font-xs,
+  $desktop: $font-xs
+);
+$default-font-size: (
+  null: $font-s,
+  $desktop: $font-s
+);
+$title1-font-sizes: (
+  null: $font-xl,
+  $desktop: $font-xxl
+);
+$title2-font-sizes: (
+  null: $font-l,
+  $desktop: $font-l
+);
+$title3-font-sizes: (
+  null: $font-xl,
+  $desktop: $font-xl
+);
+$subtitle1-font-sizes: (
+  null: $font-d,
+  $desktop: $font-xl
+);
+$subtitle2-font-sizes: (
+  null: $font-d,
+  $desktop: $font-m
+);
+$subtitle3-font-sizes: (
+  null: $font-d,
+  $desktop: $font-d
+);
+$subtitle4-font-sizes: (
+  null: $font-s,
+  $desktop: $font-m
+);
+
+$font-ubuntu: 'Ubuntu';
+$font-thin: 100;
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 600;
+
+$font-spacing-small: 0.1rem;
+$font-spacing-medium: 0.2rem;
+$font-spacing-large: 0.4rem;
+
+// /* Spacing;
+$size-s: 1rem;
+$size-m: 1.4rem;
+$size-l: 1.6rem;
+$size-xl: 1.8rem;
+
+// /* Radius;
+$radius-s: 0.5rem;
+$radius-m: 1rem;
+$radius-l: 1.5rem;
+$radius-circle: 2.5rem;
+$text: #1e2a32;
+$input: #4d6475;
