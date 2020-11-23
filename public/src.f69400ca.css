@@ -1,0 +1,355 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+@media screen and (min-width: 1070px) and (max-width: 1600px) {
+  html {
+    font-size: 62.5%; } }
+
+body {
+  color: #1e2a32;
+  font-family: 'SF Pro Display', Helvetica Neue, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0; }
+
+button {
+  cursor: pointer; }
+
+button:disabled {
+  cursor: default; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  width: inherit; }
+
+h1,
+h2,
+h4,
+h5,
+h6,
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+.card {
+  display: flex;
+  background: #ffffff;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 3.1rem 2.4rem;
+  border-radius: 1rem;
+  height: 70vh;
+  box-shadow: 0px 16px 32px rgba(30, 42, 50, 0.08); }
+  @media screen and (min-width: 1070px) and (max-width: 1600px) {
+    .card {
+      position: absolute;
+      transform: translate(-50%, 0%);
+      left: 50%;
+      height: auto;
+      overflow: hidden;
+      width: 50vw;
+      padding: 3.5rem 4rem; } }
+  .card__header {
+    display: flex; }
+  .card__exhibition {
+    display: flex; }
+  .card__fields {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .card__fields {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        .card__fields-input {
+          display: flex;
+          flex: 4; }
+        .card__fields-goal {
+          display: flex;
+          flex: 2;
+          justify-content: flex-end;
+          width: 100%; } }
+  .card__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem; }
+
+.home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column; }
+  @media screen and (min-width: 1070px) and (max-width: 1600px) {
+    .home {
+      height: 110%; } }
+  .home__nav {
+    display: flex; }
+  .home__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .home__container__heading {
+      display: flex;
+      text-align: justify;
+      color: #0079ff;
+      font-size: 2.1rem; }
+      .home__container__heading-text {
+        padding-left: 0.5rem; }
+  .home__card {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5.6rem;
+  background: #ffffff;
+  padding: 1.6rem;
+  width: 100vw; }
+  .navbar__logo {
+    display: flex;
+    justify-content: flex-start;
+    color: #000000;
+    width: 7.5rem;
+    height: 2.4rem; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .navbar__logo {
+        width: 10rem;
+        height: 3.2rem; } }
+
+.TitleHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .TitleHeader__icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 1.4rem; }
+    .TitleHeader__icon img {
+      display: block;
+      max-width: 100%;
+      width: 70px;
+      height: 60px; }
+  .TitleHeader__title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem; }
+    .TitleHeader__title__heading {
+      text-align: initial;
+      font-weight: 600;
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      color: #1e2a32; }
+    .TitleHeader__title__text {
+      color: #708797;
+      line-height: 2.4rem; }
+
+.amount {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  align-items: center;
+  width: 100%; }
+  .amount__field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 4rem; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .amount__field {
+        margin: 0; } }
+    .amount__field__label {
+      display: flex;
+      text-transform: capitalize;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      color: #1e2a32; }
+    .amount__field__input {
+      border-radius: 0.5rem;
+      border: 1px solid #e9eef2;
+      text-align: left;
+      font-weight: 600;
+      color: #4d6475;
+      width: 100%;
+      font-size: 4rem;
+      padding: 2rem 7rem; }
+      @media screen and (min-width: 1070px) and (max-width: 1600px) {
+        .amount__field__input {
+          font-size: 2.7rem;
+          height: 5.6rem;
+          padding: 2rem 6rem; } }
+    .amount__field__input:focus {
+      outline: none;
+      color: #4d6475;
+      vertical-align: middle !important; }
+    .amount__field__input::placeholder {
+      color: #898989;
+      font-size: 2.1rem;
+      font-weight: 100;
+      text-align: left; }
+  .amount__field:before {
+    display: block;
+    width: 18px;
+    top: 8.9rem;
+    left: 4rem;
+    z-index: 1;
+    font-size: 4rem;
+    position: relative;
+    content: '$';
+    color: #cbd5dc; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .amount__field:before {
+        position: relative;
+        top: 6.5rem;
+        left: 4rem;
+        z-index: 1;
+        font-size: 2.7rem;
+        color: #cbd5dc; } }
+
+.month-goal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 100%; }
+  @media screen and (min-width: 1070px) and (max-width: 1600px) {
+    .month-goal {
+      margin-left: 1.4rem; } }
+  .month-goal-text {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: #1e2a32; }
+  .month-goal-picker {
+    display: flex;
+    padding: 2rem 0;
+    height: 9.3rem;
+    border: 1px solid #e9eef2;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 100%; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .month-goal-picker {
+        height: 5.6rem; } }
+    .month-goal-picker__label {
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex: 4;
+      width: 12.8rem; }
+    .month-goal-picker__previous {
+      display: flex;
+      flex: 1;
+      justify-content: flex-start;
+      cursor: pointer;
+      align-items: flex-start;
+      font-size: 4rem; }
+    .month-goal-picker__next {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      align-items: flex-end;
+      cursor: pointer; }
+
+.monthlabel {
+  display: flex;
+  flex-direction: column; }
+  .monthlabel__month {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1e2a32;
+    margin-bottom: 1rem; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .monthlabel__month {
+        font-size: 1.4rem; } }
+  .monthlabel__year {
+    color: #708797; }
+
+.montlyAmount {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #e9eef2;
+  margin-top: 4rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem; }
+  .montlyAmount__amount {
+    display: flex;
+    background: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 3.2rem;
+    border-radius: 0.5rem;
+    height: 9rem; }
+    @media screen and (min-width: 1070px) and (max-width: 1600px) {
+      .montlyAmount__amount {
+        height: 5.6rem; } }
+    .montlyAmount__amount-text {
+      line-height: 2.4rem;
+      font-size: 1.8rem;
+      color: #1e2a32;
+      text-transform: capitalize;
+      letter-spacing: 0.1rem; }
+    .montlyAmount__amount-value {
+      font-weight: 600;
+      font-size: 2.4rem;
+      color: #0079ff; }
+  .montlyAmount__plan {
+    display: flex;
+    justify-content: center;
+    background: #f4f8fa;
+    padding: 2.4rem 3.2rem;
+    font-size: 1.2rem;
+    flex: 1;
+    height: 9rem; }
+
+.Button {
+  border: none;
+  background-color: #1b31a8;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.6rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.4s;
+  width: 100%;
+  border-radius: 2.5rem; }
+  @media screen and (min-width: 1070px) and (max-width: 1600px) {
+    .Button {
+      height: 5.6rem;
+      width: 80%; } }
+  .Button:focus {
+    outline: none; }
+  .Button:hover {
+    background-color: #0061cc; }
+  .Button:disabled {
+    background-color: #f5f5f5;
+    border: none;
+    color: #dedede; }
+
+body {
+  background: #f4f8fa; }
+
+
+/*# sourceMappingURL=/src.f69400ca.css.map */

@@ -1,5 +1,10 @@
 # Origin Frontend Take-Home Assignment
 
+```
+Can find deployed version[here](https://origin-fininancial.moabbasch.vercel.app/)
+
+```
+
 Origin is a platform that helps our customers' employees put their financial lives on track.
 
 One key to financial well-being is planning & saving for your goals. Users can have many saving goals (e.g. go to college or throw a wedding party) and it is our job to help them accomplish it.
@@ -18,19 +23,23 @@ When the users change the value of any of the inputs, the monthly deposit value 
 # Development Instructions
 
 ### Evaluation
+
 Be aware that Origin will mainly take into consideration the following evaluation criteria:
-* How close your page is to the mockups, both on mobile & desktop;
-* How clean and organized your code is;
-* How good your automated tests are (qualitative over quantitative);
-* And if you implemented the business rules correctly.
+
+- How close your page is to the mockups, both on mobile & desktop;
+- How clean and organized your code is;
+- How good your automated tests are (qualitative over quantitative);
+- And if you implemented the business rules correctly.
 
 ### Assets - Pay attention on the dates below
 
 #### Use this mockup if you started the THA before 04 November 2020
+
 You can find the layout mockups here on our Figma project:
 [Layout mockups](https://www.figma.com/file/kQbSy4KVXeF1tJsQRcYc5o/Take-Home-Assignment?node-id=0%3A1)
 
 #### Use this new one mockup if you started the THA on 04 November 2020 or later
+
 You can find the layout mockups here on our Figma project:
 [Layout mockups](https://www.figma.com/file/Axdg0WSJURcxp8Arq3gg9x/Take-Home-Assignment-v2)
 
