@@ -34,6 +34,8 @@
   &__plan {
     display: flex;
     justify-content: center;
+    align-items: center;
+    line-height: 2.6rem;
     background: $grey-blue;
     padding: 2.4rem 3.2rem;
     font-size: $font-s;
