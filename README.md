@@ -1,6 +1,6 @@
 # Origin Frontend Take-Home Assignment
 
-Can find deployed version[here](https://origin-fininancial.moabbasch.vercel.app/)
+Can find deployed version [here](https://origin-fininancial.moabbasch.vercel.app/)
 
 Origin is a platform that helps our customers' employees put their financial lives on track.
 
